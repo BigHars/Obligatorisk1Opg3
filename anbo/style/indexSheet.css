@@ -1,0 +1,622 @@
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none; /* Remove underlines */
+  color: inherit; /* Inherit text color from parent */
+  cursor: pointer; 
+}
+
+/*TEXT STYLING */
+h1 {
+  color: #111029;
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+h4 {
+  color: #9890E8;
+  font-size: 0.8rem;
+  font-weight: 200;
+  letter-spacing: 5px;
+  margin-left: 30px;
+}
+
+h6 {
+  color: #6C5FEA;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.navigation-a {
+  width: 4%;
+}
+
+.navbar-cv-container .navbar-p,
+.navbar-academy-container .navbar-p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100%; /* Ensure the text takes up the full height of its container */
+}
+
+/* NAVBAR STYLING */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+}
+  
+.navbar-content {
+  display: flex;
+  gap: 30px;
+}
+
+/* NAVBAR ICONS */
+img.navbar-icon-academy {
+  width: 6%;
+}
+
+img.navbar-icon-cv {
+  width: 35%;
+}
+
+.navbar-cv-container {
+  grid-gap: 10px;
+  width: 10%;
+}
+
+.navbar-academy-container {
+  grid-gap: 10px;
+}
+
+.navbar-logo-container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-left: 5%;
+  width: 15%;
+  margin-top: 3px;
+}
+
+img.navbar-logo {
+  vertical-align: middle;
+  width: 100%;
+}
+
+#Layer_20 {
+  width: 5%;
+}
+
+#Layer_CV {
+  width: 14%;
+}
+
+#Layer_40 {
+  width: 75%;
+}
+
+/* WELCOME SECTION */
+.welcome-section-name {
+  display: flex;
+  grid-gap: 2%;
+}
+
+.welcome-section-greeting {
+  flex: 60%;
+}
+
+.welcome-section-education {
+  justify-content: center;
+  flex: 40%;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.navigation-down-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 55%;
+}
+
+svg#Layer_2 {
+  width: 100%;
+}
+
+path.cls-2 {
+  stroke: #111029;
+}
+
+/* RESUME SECTION */
+.resume-section-container {
+  background-color:#F5F5F5;
+  padding-top: 200px;
+  height: 100vh;
+}
+
+.resume-section-container.dark {
+  background-color:#6C5FEA;
+}
+
+.dark h6 {
+  color: #F5F5F5;
+}
+
+.resume-section-swiper-container {
+  margin-top: 100px;
+}
+
+.resume-section-header-container {
+  display: flex;
+  grid-gap: 30px;
+  width: 66%;
+  margin: auto;
+  padding-top: 10%;
+}
+
+.circular-background {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circular-background.color1 {
+  background-color: #6C5FEA;
+}
+
+.circular-background.color2 {
+  background-color: #FBDFD9;
+}
+
+.circular-background.color3 {
+  background-color: #F9D11F;
+}
+
+.circular-background.color4 {
+  background-color: #9254D7;
+}
+
+.circular-background.color5 {
+  background-color: #ED2061;
+}
+
+.circular-background img {
+  max-width: 60%;
+}
+
+.line-icon {
+  width: 10%;
+}
+
+.navigation-down-container.resume-navigation {
+  margin-top: 2%;
+}
+
+/* FOOTER */
+footer {
+  background-color: #111029;
+  margin: 0;
+}
+
+.footer-container {
+  padding: 1%;
+}
+
+.footer-text-container {
+  color: #f5f5f5;
+  font-weight: 200;
+  text-align: center;
+}
+
+/* Styles for smartphones */
+@media screen and (max-width: 766px) {
+  h1 {
+    font-size: 2.1rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .welcome-section-education {
+    margin-top: 15%;
+  }
+
+  .navbar-cv-container,
+  .navbar-academy-container {
+    display: none;
+    height: 60px;
+  }
+
+  body {
+    background-color: #F5F5F5;
+  }
+
+  .cls-1 {
+    fill: #6C5FEA;
+  }
+
+  svg#Layer_2 {
+    width: 100%;
+  }
+
+  .navbar-hamburger-menu {
+    width: 15%;
+    padding-top: 5%;
+  }
+
+  .welcome-section-info-container {
+    display: block;
+  }
+
+  .navbar-container {
+    padding: 10%;
+  }
+
+  .navbar-logo-container {
+    width: 50%;
+  }
+
+  .welcome-section-container {
+    margin-top: 0%;
+    padding: 10%;
+  }
+
+  .navigation-down-container {
+    margin-top: 35%;
+  }
+
+  .resume-section-header-container {
+    width: 90%;
+  }
+
+  .navigation-a {
+    width: 15%;
+  }
+
+  #Layer_40 {
+    width: 100%;
+  }
+
+  .footer-text-container {
+    font-size: 12px;
+  }
+
+  .footer-container {
+    padding: 7%;
+  }
+}
+
+/* Styles for small tablets */
+@media screen and (min-width: 768px) and (max-width: 819px) {
+  body {
+    background: linear-gradient(to right, #F5F5F5 60%, #6C5FEA 60%);
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .welcome-section-container {
+    margin-top: 30%;
+    padding: 2%;
+  }
+
+  .navigation-down-container {
+    margin-top: 35%;
+  }
+
+  svg#Layer_2 {
+    width: 100%;
+  }
+
+  .navbar-cv-container,
+  .navbar-academy-container {
+    display: flex;
+    height: 60px;
+  }
+
+  .cls-1 {
+    fill: #F5F5F5;
+  }
+
+  .navbar-hamburger-menu {
+    margin-right: 5%;
+    width: 5%;
+  }
+
+  .welcome-section-info-container {
+    display: flex;
+  }
+
+  .navbar-container {
+    padding: 0;
+  }
+
+  .resume-section-header-container {
+    width: 66%;
+    padding-top: 0;
+  }
+
+  .resume-section-swiper-container {
+    margin-top: 4%;
+  }
+
+  .navigation-a {
+    width: 10%;
+  }
+
+  #Layer_40 {
+    width: 80%;
+  }
+
+  .footer-container {
+    padding: 3%;
+  }
+  
+  .footer-text-container {
+    font-size: 16px;
+  }
+}
+
+/* Styles for big tablets */
+@media screen and (min-width: 820px) and (max-width: 1024px) {
+  body {
+    background: linear-gradient(to right, #F5F5F5 60%, #6C5FEA 60%);
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .welcome-section-container {
+    margin-top: 30%;
+    padding: 2%;
+  }
+
+  .navigation-down-container {
+    margin-top: 55%;
+  }
+
+  svg#Layer_2 {
+    width: 100%;
+  }
+
+  .navbar-cv-container,
+  .navbar-academy-container {
+    display: flex;
+    height: 60px;
+  }
+
+  .cls-1 {
+    fill: #F5F5F5;
+  }
+
+  .navbar-hamburger-menu {
+    margin-right: 5%;
+    width: 5%;
+  }
+
+  .welcome-section-info-container {
+    display: flex;
+  }
+
+  .navbar-container {
+    padding: 0;
+  }
+
+  .resume-section-header-container {
+    width: 66%;
+    padding-top: 0;
+  }
+
+  .resume-section-swiper-container {
+    margin-top: 4%;
+  }
+
+  .navigation-a {
+    width: 10%;
+  }
+
+  #Layer_40 {
+    width: 80%;
+  }
+
+  .footer-container {
+    padding: 3%;
+  }
+  
+  .footer-text-container {
+    font-size: 16px;
+  }
+}
+
+/* Styles for small desktop and laptop screens */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    background: linear-gradient(to right, #F5F5F5 60%, #6C5FEA 60%);
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .welcome-section-container {
+    margin-top: 8%;
+    padding: 2%;
+    height: 70vh;
+  }
+
+  .navigation-down-container {
+    margin-top: 8%;
+  }
+
+  svg#Layer_2 {
+    width: 100%;
+  }
+
+  svg#Layer_1 {
+    width: 60%;
+  }
+
+  .navbar-cv-container,
+  .navbar-academy-container {
+    display: flex;
+    height: 60px;
+  }
+
+  .cls-1 {
+    fill: #F5F5F5;
+  }
+
+  .navbar-hamburger-menu {
+    margin-right: 5%;
+    width: 5%;
+  }
+
+  .welcome-section-info-container {
+    display: flex;
+  }
+
+  .navbar-container {
+    padding: 0;
+  }
+
+  .navbar-logo-container {
+    width: 12%;
+  }
+
+  .resume-section-header-container {
+    width: 66%;
+    padding-top: 0;
+  }
+
+  .resume-section-swiper-container {
+    margin-top: 3%;
+  }
+
+  .navigation-a {
+    width: 6%;
+  }
+
+  #Layer_40 {
+    width: 100%;
+  }
+
+  .footer-container {
+    padding: 3%;
+  }
+  
+  .footer-text-container {
+    font-size: 16px;
+  }
+}
+
+/* Styles for medium to large desktop screens */
+@media screen and (min-width: 1441px) {
+  body {
+    background: linear-gradient(to right, #F5F5F5 60%, #6C5FEA 60%);
+  }
+
+  .welcome-section-container {
+    margin-top: 15%;
+    padding: 2%;
+    height: 60vh;
+  }
+
+  .navigation-down-container {
+    margin-top: 12%;
+  }
+
+  svg#Layer_2 {
+    width: 100%;
+  }
+
+  svg#Layer_1 {
+    width: 50%;
+  }
+
+  .navbar-cv-container,
+  .navbar-academy-container {
+    display: flex;
+    height: 60px;
+  }
+
+  .cls-1 {
+    fill: #F5F5F5;
+  }
+
+  .navbar-hamburger-menu {
+    margin-right: 5%;
+    width: 5%;
+  }
+
+  .welcome-section-info-container {
+    display: flex;
+  }
+
+  .navbar-container {
+    padding: 0;
+  }
+
+  .navbar-logo-container {
+    width: 10%;
+  }
+
+  .resume-section-header-container {
+    width: 66%;
+  }
+
+  .resume-section-container {
+    padding-top: 0;
+  }
+
+  #Layer_40 {
+    width: 100%;
+  }
+
+  .footer-container {
+    padding: 3%;
+  }
+  
+  .footer-text-container {
+    font-size: 16px;
+  }
+}
+
+/* Styles for wide screens (e.g., ultrawide monitors) */
+@media screen and (min-width: 1920px) {
+  .welcome-section-container {
+    margin-top: 13%;
+    height: 60vh;
+  }
+
+  .navigation-down-container {
+    margin-top: 15%;
+  }
+
+  svg#Layer_2 {
+    width: 100%;
+  }
+
+  svg#Layer_1 {
+    width: 40%;
+  }
+}
